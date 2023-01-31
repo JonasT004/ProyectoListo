@@ -1,0 +1,145 @@
+
+.clase__texto{
+
+   font-size: xx-large;
+   font-family: 'Courier New', Courier, monospace;
+    
+}
+
+   
+.clase__centrar{
+    text-align: center;
+    
+    }
+
+.claseh2{
+    color: tomato;
+        }
+
+.clasea{
+    text-decoration: none;
+     font-weight: bold;
+        }
+
+.clase__principal{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.texto_tarjeta{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.clase__venta{
+    font-size: 26px;
+    margin-top: 40px;
+    text-transform: uppercase;
+   text-shadow: 15px;
+}
+
+
+
+
+
+.click__aca{
+
+background-color: goldenrod;
+font-size: xx-large;
+font-family: 'Times New Roman', Times, serif;
+color: white;
+font-weight: bold;
+letter-spacing: 10pt;
+       
+    a{
+        
+        text-decoration: none;
+        color: rgb(24, 2, 20);
+        &:hover{
+            color: burlywood;
+        }
+    }
+
+}
+
+
+.texto__foto1{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    color: rgb(2, 41, 59);
+    text-shadow: 0px 0px 6px white;
+ 
+
+}
+
+.texto__foto2{
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 0px 6px white;
+}
+
+.nav-item{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+
+.card__1{
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: goldenrod
+}
+.card__titulo{
+    @extend .card__1;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+
+}
+.card__titulo2{
+    @extend .card__titulo;
+    background-color: white;
+}
+.tuclase{
+text-align: center; 
+font-family: Comic Sans MS; 
+font-weight:bold; 
+font-size: 60px; 
+color: #EBD758; 
+text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 
+}
+
+.separador__card{
+    margin-top: 30px;
+    gap: 100px
+    ;
+}
+
+.tarjet__ind{
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.card__img{
+    border-left: 1px solid #ccc;
+}
+
+
+.ventas__img{
+    width: 80%;
+    &:hover{
+        width: 100%;
+    }
+}
+
+.separador__horizontal{
+    gap: 20px;
+}

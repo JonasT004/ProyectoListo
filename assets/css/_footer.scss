@@ -1,0 +1,23 @@
+.img_mi_footer{
+    width: 100%;
+    height: 80px;
+}
+.mi__footer{
+    text-align: center;
+    font-weight: bold;
+    div a{
+        color: rgb(1, 7, 12);
+        &:hover{
+            font-size:x-large;
+            color:red
+        }
+    }
+}
+
+.div__footer{
+    display: inline-block;
+    color: rgb(2, 9, 15);
+    width: 30%;
+    font-size: x-large;
+    
+}

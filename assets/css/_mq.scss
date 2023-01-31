@@ -1,0 +1,33 @@
+@media only screen and (min-width:1000px)
+{
+    #mi__container{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto; 
+        grid-template-areas:
+        
+        "encabezado"
+        "botonera"
+         "contenido"
+        "pie__de__pagina"
+    
+    } 
+
+ 
+   .test__div{
+
+       flex-flow: row nowrap;
+      padding-bottom: 80px;
+       
+    }
+
+    .sistemas__lavados{
+        margin-top: 15px;
+        font-size: 30px;
+        
+    }
+
+
+
+
+} 
